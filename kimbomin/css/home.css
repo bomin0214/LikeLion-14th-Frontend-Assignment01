@@ -1,7 +1,5 @@
-body{
-    text-align: center;
-}
-
-.radius_img_1{
+profile-img{
+    width: 70px;
+    height: 70px;
     border-radius: 50%;
 }
