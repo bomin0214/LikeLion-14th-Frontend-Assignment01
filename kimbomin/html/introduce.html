@@ -6,6 +6,8 @@
     
     <!-- title 태그 이용하여 제목 작성 -->
     <title>자기소개</title>
+    <link rel="stylesheet" href="../css/static.css">
+    <link rel="stylesheet" href="../css/introduce.css">
 </head>
 <body>
     <header>
@@ -22,13 +24,18 @@
             <article>
                 <form>
                     <!-- type text, email, radio + textarea 작성완료 -->
-                    이름: <input type="text"><br>
-                    이메일: <input type="email"><br>
-                    성별: <input type="radio">남 성별: <input type="radio">여 <br>
-                    자기소개: <textarea></textarea> <br>
+                    <p>이름: <input type="text"></p>
+                    <p>이메일: <input type="email"></p>
+                    <p>성별: <input type="radio">남 <input type="radio">여 </p>
+                    <p>자기소개: <textarea name="intro" rows="10" cols="30" placeholder="자기소개 입력하기"></textarea></p>
                 </form>
             </article>
         </section>
+
+        <nav>
+        <a href="home.html" target="_self">홈화면</a><br>
+        <a href="schedule.html" target="_self">시간표</a>
+    </nav>
     </main>
 </body>
 </html>
