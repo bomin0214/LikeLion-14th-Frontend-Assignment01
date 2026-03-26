@@ -9,3 +9,7 @@ body{
     text-align: center;
     font-family: 'GangwonEducationModuche';
 }
+
+hr{
+    width: 30%;
+}
