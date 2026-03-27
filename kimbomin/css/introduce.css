@@ -1,9 +1,11 @@
-article.cat{
-    width: 50px;
-    height: 50px;
+section.centerimg {
+    display: flex;
+    justify-content: center;
+    gap: 20px;
 }
 
-article.dog{
-    width: 50px;
-    height: 50px;
+.centerimg img{
+    width: 200px;
+    height: 200px;
+    object-fit: cover;
 }
