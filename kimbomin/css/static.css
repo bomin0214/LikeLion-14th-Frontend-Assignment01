@@ -1,4 +1,4 @@
-/* 모든 html 파일에 웹 폰트 적용하기 */
+/* css 조건 8번 만족 */
 @font-face {
     font-family: 'GangwonEducationModuche';
     src: url('https://cdn.jsdelivr.net/gh/projectnoonnu/noonfonts_2201-2@1.0/GangwonEdu_OTFLightA.woff') format('woff');
@@ -6,12 +6,13 @@
     font-display: swap;
 }
 
-/* 정렬 속성 사용 */
+/* css 조건 9번 만족 */
 body{
     text-align: center;
     font-family: 'GangwonEducationModuche';
 }
 
+/* css 조건 10번 만족 */
 hr{
     width: 30%;
 }

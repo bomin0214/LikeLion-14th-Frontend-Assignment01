@@ -1,11 +1,14 @@
+/* css 조건 3번 만족 */
 article{
     text-align: center;
 }
 
+/* css 조건 4번 만족 */
 .profile-img img{
     border-radius: 50%;
 }
 
+/* css 조건 5번 만족 */
 ul {
     list-style-position: inside;
 }

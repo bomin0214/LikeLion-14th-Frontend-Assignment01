@@ -1,9 +1,11 @@
+/* css 조건 6번 만족 */
 section.centerimg {
     display: flex;
     justify-content: center;
     gap: 20px;
 }
 
+/* css 조건 7번 만족 */
 .centerimg img{
     width: 200px;
     height: 200px;

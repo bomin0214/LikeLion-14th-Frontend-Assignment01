@@ -1,13 +1,16 @@
+/* css 조건 1번 만족 */
 table, th, td{
     border: 1px solid black;
     border-collapse: collapse;
 }
 
+/* css 조건 2번 만족 */
 table{
     margin-left: auto;
     margin-right:auto;
 }
 
+/* css 조건 3번 만족 */
 th {
     width: 120px;
 }
